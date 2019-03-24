@@ -1,0 +1,13 @@
+.container {
+  compose: container from '../Post/styles.module.css';
+}
+
+form {
+  compose: form from '../Post/styles.module.css';
+}
+
+.textField {
+  compose: textField from '../Post/styles.module.css';
+}
+
+

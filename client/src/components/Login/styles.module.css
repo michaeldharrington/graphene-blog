@@ -1,0 +1,22 @@
+.container{
+  margin: 2em auto;
+  width: 100%;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+form{
+  margin: auto 0;
+}
+
+.textField{
+  margin: 4px;
+  padding: 4px 0 3px;
+  border: 0;
+  outline: 0;
+  border-bottom: 2px solid #7180b9;
+}
+.textField:focus{
+  border-bottom: 2px solid #8596db;
+}
